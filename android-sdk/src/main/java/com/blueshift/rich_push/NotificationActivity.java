@@ -1,12 +1,13 @@
 package com.blueshift.rich_push;
 
+import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 
 import com.blueshift.Blueshift;
@@ -19,7 +20,7 @@ import com.blueshift.model.Configuration;
  * This activity is responsible for creating dialog notifications.
  * Currently supports two types of dialogues.
  */
-public class NotificationActivity extends AppCompatActivity {
+public class NotificationActivity extends Activity {
 
     private Context mContext;
     private Message mMessage;
@@ -66,12 +67,14 @@ public class NotificationActivity extends AppCompatActivity {
                 }
             });
 
-            builder.setOnDismissListener(new DialogInterface.OnDismissListener() {
-                @Override
-                public void onDismiss(DialogInterface dialog) {
-                    finish();
-                }
-            });
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+                builder.setOnDismissListener(new DialogInterface.OnDismissListener() {
+                    @Override
+                    public void onDismiss(DialogInterface dialog) {
+                        finish();
+                    }
+                });
+            }
 
             builder = setActions(builder);
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="TransparentActivity" parent="Theme.AppCompat.Dialog.Alert">
+    <style name="TransparentActivity" parent="Theme.AppCompat.Dialog">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -10,8 +10,9 @@
         <item name="android:backgroundDimEnabled">false</item>
     </style>
 
-    <style name="BlueshiftDialogTheme" parent="Theme.AppCompat.Dialog.Alert" />
+    <style name="BlueshiftDialogTheme" parent="Theme.AppCompat.Dialog" />
 
+    <!--
     <style name="Notification" parent="@style/TextAppearance.StatusBar.EventContent" />
 
     <style name="NotificationTitle" parent="@style/TextAppearance.StatusBar.EventContent.Title" />
@@ -21,5 +22,5 @@
     <style name="NotificationLine2" parent="@style/TextAppearance.StatusBar.EventContent.Line2" />
 
     <style name="NotificationInfo" parent="@style/TextAppearance.StatusBar.EventContent.Info" />
-
+    -->
 </resources>
