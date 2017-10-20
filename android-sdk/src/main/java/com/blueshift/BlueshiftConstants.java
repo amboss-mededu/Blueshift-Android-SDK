@@ -10,7 +10,7 @@ public class BlueshiftConstants {
     /**
      * URLs for server communication
      */
-    public static final String BASE_URL = "https://api.getblueshift.com";
+    public static final String BASE_URL = "https://api.blueshift.com";
     public static final String TRACK_API_URL = BASE_URL + "/track";
     public static final String LIVE_CONTENT_API_URL = BASE_URL + "/live";
     public static final String V1_API_URL = BASE_URL + "/api/v1";

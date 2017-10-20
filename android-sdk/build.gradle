@@ -13,7 +13,7 @@ ext {
 
     libraryDescription = 'Blueshift Android SDK to make it easier for marketers to integrate their mobile app with Blueshift’s near real-time event processing platform and send personalized rich push notifications to their customers.'
 
-    siteUrl = 'https://getblueshift.com/'
+    siteUrl = 'https://blueshift.com/'
     gitUrl = 'https://github.com/blueshift-labs/Blueshift-Android-SDK.git'
 
     libraryVersion = '1.1.3'
