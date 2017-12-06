@@ -62,7 +62,7 @@ dependencies {
     // for Android Advertising Id
     compile 'com.google.android.gms:play-services-ads:11.6.2'
     // for JSON parsing
-    compile 'com.google.code.gson:gson:2.7'
+    compile 'com.google.code.gson:gson:2.8.0'
     // for annotations used (ex @NotNull)
     compile 'org.jetbrains:annotations:13.0'
 
