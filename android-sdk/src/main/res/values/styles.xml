@@ -12,14 +12,14 @@
 
     <style name="BlueshiftDialogTheme" parent="Theme.AppCompat.Dialog.Alert" />
 
-    <style name="Notification" parent="@style/TextAppearance.AppCompat.Notification" />
+    <style name="Notification" parent="@style/TextAppearance.Compat.Notification" />
 
-    <style name="NotificationTitle" parent="@style/TextAppearance.AppCompat.Notification.Title" />
+    <style name="NotificationTitle" parent="@style/TextAppearance.Compat.Notification.Title" />
 
-    <style name="NotificationTime" parent="@style/TextAppearance.AppCompat.Notification.Time" />
+    <style name="NotificationTime" parent="@style/TextAppearance.Compat.Notification.Time" />
 
-    <style name="NotificationLine2" parent="@style/TextAppearance.AppCompat.Notification.Line2" />
+    <style name="NotificationLine2" parent="@style/TextAppearance.Compat.Notification.Line2" />
 
-    <style name="NotificationInfo" parent="@style/TextAppearance.AppCompat.Notification.Info" />
+    <style name="NotificationInfo" parent="@style/TextAppearance.Compat.Notification.Info" />
 
 </resources>
